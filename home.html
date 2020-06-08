@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Depht DEV - Home </title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="estilo1.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -12,8 +13,6 @@
 		<div id="logo">
 		
 		</div>
-		
-		
 		<div id="menu">
 			<ul>
 				<li><a href="">HOME</a></li>
@@ -26,6 +25,27 @@
 		</div>
 	</div>
 	
+	
+	<div id="banner" class="w3-content w3-section" style="max-height:580px; max-width: 1920px">
+  		<img class="mySlides" src="img/imghome01.jpg" style="width:100%">
+  		<img class="mySlides" src="img/imghome02.jpg" style="width:100%">
+  		<img class="mySlides" src="img/imghome03.jpg" style="width:100%">
+		
+		<div id="botao1">
+			<a href="">Saiba Mais</a>
+		</div>
+		
+		<div id="botao2">
+			<a href="">Entre em contato</a>
+		</div>
+	</div>
+	
+	<div id="menus">
+		<div id="coluna1" class="txtmenus"></div>
+	</div>
+		
+	
+	
 	<div id="rodape">
 		<div id="mapa">
 			
@@ -37,8 +57,26 @@
 		<h6> <img src= "img/face.png"> <a href="">Facebook</a></h6>
 		<h7> <img src= "img/twitter.png"> <a href="">Twitter</a></h7>
 		<h3><img src="img/cell.png"> +55 11 958400822</h3>
-		<h4><img src="img/email.png"> <a href="mailto:dephtdev@gmail.com">dephtdev@gmail.com</a></h4>
+		<h4><img src="img/email.png"> <a  href="mailto:dephtdev@gmail.com">dephtdev@gmail.com</a></h4>
 		<h5><img src="img/local.png">  Luíz Faccini, 132 - Centro, Guarulhos - SP, 07110-000</h5>
 	</div>
+	
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+	
 </body>
 </html>

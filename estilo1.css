@@ -42,15 +42,86 @@
 #menu ul li a{
 	color: black;
 	text-decoration: none;
+	
 }
+
+#banner{
+	height: 600px;
+	background-color: aqua;
+	position: relative;
+}
+
+#botao1 a{
+	border-style: solid;
+	padding: 16px 25px;
+	text-transform: uppercase;
+	border-bottom-left-radius: 32px;
+	border-bottom-right-radius: 32px;
+	border-top-left-radius: 32px;
+	border-top-right-radius: 32px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	position: absolute;
+	top: 80%;
+	left: 37%;
+	line-height: 14px;
+	font-size: 16px;
+	color:#ffd0a4;
+	background-color: #06d8ff;
+	border-color: #06d8ff;
+	text-decoration: none;
+	
+}
+
+#botao1 a:hover{
+	background-color: #ff7c00;
+	border-color: #ff7c00;
+	color: white;
+}
+
+#botao2 a{
+		border-style: solid;
+	padding: 16px 25px;
+	text-transform: uppercase;
+	border-bottom-left-radius: 32px;
+	border-bottom-right-radius: 32px;
+	border-top-left-radius: 32px;
+	border-top-right-radius: 32px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	position: absolute;
+	top: 80%;
+	right: 37%;
+	line-height: 14px;
+	font-size: 16px;
+	color:#ffd0a4;
+	background-color: #06d8ff;
+	border-color: #06d8ff;
+	text-decoration: none;
+}
+
+#botao2 a:hover{
+	background-color: #ff7c00;
+	border-color: #ff7c00;
+	color: white;
+}
+
+#menus{
+	
+}
+
+
+
+
 
 #rodape{
 	height: 160px;
 	background-color: lightgrey;
 	position: relative;
-	margin-top: 50px;
 	
 }
+
+
 
 #mapa{
 	position: absolute;
@@ -73,6 +144,10 @@
 	font-size: 14px;
 	top: 25px;
 	right: 560px;
+}
+
+.mySlides{
+	display: none;
 }
 
 #rodape h4{
