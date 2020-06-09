@@ -8,7 +8,7 @@
 }
 
 #topo{
-	height: 150px;
+	height: 100px;
 	position: relative;
 	background-color: white;
 }
@@ -19,7 +19,7 @@
 	width: 175px;
 	height: 100px;
 	background-color: blue;
-	top: calc(50% - 50px);
+	top: calc(58% - 50px);
 	left: 350px;
 }
 
@@ -47,7 +47,7 @@
 
 #banner{
 	height: 600px;
-	background-color: aqua;
+	
 	position: relative;
 }
 
@@ -66,16 +66,16 @@
 	left: 37%;
 	line-height: 14px;
 	font-size: 16px;
-	color:#ffd0a4;
-	background-color: #06d8ff;
-	border-color: #06d8ff;
+	color:white;
+	background-color: inherit;
+	border-color: white;
 	text-decoration: none;
 	
 }
 
 #botao1 a:hover{
-	background-color: #ff7c00;
-	border-color: #ff7c00;
+	background-color: #06d8ff;
+	border-color: #fff;
 	color: white;
 }
 
@@ -94,20 +94,126 @@
 	right: 37%;
 	line-height: 14px;
 	font-size: 16px;
-	color:#ffd0a4;
-	background-color: #06d8ff;
-	border-color: #06d8ff;
+	color:white;
+	background-color: inherit;
+	border-color: white;
 	text-decoration: none;
 }
 
 #botao2 a:hover{
-	background-color: #ff7c00;
-	border-color: #ff7c00;
+	background-color: #06d8ff;
+	border-color: #fff;
 	color: white;
 }
 
 #menus{
+	width: 1024px;
+	background-color: #fff;
+	margin:auto;
+	height: 780px;
+	margin-top: -21px;
+	position: relative;
+	padding: 20px 30px;
+}
+
+.txtmenus{
+	text-align: center;
+}
+
+#coluna1{
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding-left: 30px;
+	margin-left: 40px;
+	margin-top: 90px;
+}
+
+.columtitle{
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.imgcolum{
+	border-style: solid;
+	border-radius:  50%;
+	padding: 10px;
+	border-color: rgba(0,0,0,.4);
+	background-color: #ffb670;
+	transition: box-shadow 3s ease-in-out;
+	transition: padding .4s ease-in-out;
+	box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+}
+
+.imgcolum:hover{
+	box-shadow: 0 0 0 8px #ff7c00, 0 0 0 8px #ff7c00;
+	background-color: #ff7c00;
+	border-color: rgba(0,0,0,.0);
+	padding: 20px;
+}
+
+#banner2{
+	height: 550px;
+	background-color: aqua;
+	position: relative;
+	background-image: url("img/banner2.png")
+}
+.boxbanner2{
+	width: 340px;
+	height: 140px;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 290px;
 	
+	float: left;
+	
+}
+
+.txtb2{
+	font-size: 14px;
+	color: white;
+	text-align: justify;
+	margin-left: 50px;
+}
+
+.boxbanner21{
+	width: 340px;
+	max-height: 140px;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 290px;
+	
+	
+	
+}
+
+.txtb21{
+	font-size: 14px;
+	color: white;
+	text-align: justify;
+	position: absolute;
+	max-height: 126px;
+	width: 340px;
+	
+	left: 450px;
+}
+
+#boxbanner22{
+	width: 340px;
+	max-height: 140px;
+	position: absolute;
+	top: 350px;
+	left: 300px;
+}
+
+#boxbanner23{
+	width: 340px;
+	max-height: 140px;
+	position: absolute;
+	top: 350px;
+	left: -160px;
 }
 
 
@@ -116,7 +222,7 @@
 
 #rodape{
 	height: 160px;
-	background-color: lightgrey;
+	background-color: #7b888f;
 	position: relative;
 	
 }
@@ -199,6 +305,6 @@
 	top: 100px;
 	right: 470px;
 	z-index: 3;
-	max-width: 150px;
+	max-width: 160px;
 	font-size: 12px;
 }
