@@ -22,14 +22,14 @@
 	width: 175px;
 	height: 70px;
 	
-	top: calc(50% - 35px);
-	left: 250px;
+	top: calc(50% - 40px);
+	left: 330px;
 }
 
 #menu{
 	position: absolute;
 	
-	right: 250px;
+	right: 350px;
 	top: 50%;
 }
 
@@ -57,7 +57,7 @@
 #menu ul li a:hover{
 	border-bottom: 3px solid #ff7c00;
    
-    color: #275d6e;
+    
 }
 
 #banner{
@@ -230,6 +230,85 @@
 	top: 350px;
 	left: -160px;
 }
+
+
+/*Pagina de suporte*/
+
+#banner-sup{
+	height: 120px;
+	background-color: #000;
+	border: 1px solid #d96a00;
+	margin-top: 13px;
+	position: relative;
+}
+
+#banner-sup h1{
+	text-align: left;
+	margin-left: 500px;
+	color: #FFF;
+	line-height: 120px;
+}
+
+#banner-sup img{
+	position: absolute;
+	right: 400px;
+	top: 10px;
+}
+
+#cont-sup{
+	
+	height: 660px;
+	position: relative;
+	
+		
+}
+
+#cont-sup-1{
+	position: absolute;
+	font-size: 18px;
+	top: 50px;
+	left: 200px;
+}
+
+#cont-sup-2{
+	position: absolute;
+	font-size: 18px;
+	top: 250px;
+	left: 200px;
+}
+
+#cont-sup-3{
+	position: absolute;
+	font-size: 18px;
+	top: 450px;
+	left: 200px;
+}
+
+#cont-sup-4{
+	position: absolute;
+	top: 50px;
+	right: 300px;
+	font-size: 14px;
+	
+}
+
+#cont-sup-4 a{
+	margin: 10px;
+	text-decoration: none;
+	color: darkorange;
+}
+
+#cont-sup-4 img{
+	position: absolute;
+	top:200px;
+	right: 0px;
+}
+
+.img-sup-banner{
+	margin-top: 15px;
+}
+
+
 
 
 
