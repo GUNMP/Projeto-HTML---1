@@ -263,6 +263,7 @@
 		
 }
 
+
 #cont-sup-1{
 	position: absolute;
 	font-size: 18px;
@@ -292,6 +293,7 @@
 	
 }
 
+
 #cont-sup-4 a{
 	margin: 10px;
 	text-decoration: none;
@@ -308,139 +310,6 @@
 	margin-top: 15px;
 }
 
-
-/*Quemsomos*/
-
-#cont-qs{
-	width: 1024px;
-	background-color: gray;
-	margin: auto;
-}
-
-.Centralizado{
-text-align: center;	
-}
-.galeria{
-	width: 246px;
-	height: 200px;
-	background-color: red;
-	float: left;
-	margin: 5px;
-}
-
-
-.arrumar{
-	clear: both;
-}
-.Cont2{
-	width: 1024px;
-	margin: auto;
-
-}
-.Cont{
-	width: 1024px;
-	padding: 10px;
-	text-align: justify;
-	margin: auto;
-	
-}
-
-
-/*Planos*/
-
-.cont-planos{
-	height: auto;
-	width: 1004px;
-	background-color: #FFFFFF;
-	margin: auto;
-	padding: 10px;
-}
-
-			.txtplano{
-				height: 220px;
-				width: 450px;
-				float: left;
-				margin-right: 98px;
-				margin-left: 69px;
-			}
-
-			.imgplano{
-				height: 150px;
-				width: 300px;
-				float: left;
-				margin-right: 50px;
-				margin-top: 50px;
-			}
-
-			.justificado{
-				text-align: justify;
-			}
-			.arrumar{
-				clear: both;
-			}
-
-#bannerPlanos{
-	height: 310px;
-}
-
-.galeriaPlanos{
-	height: 185px;
-	width: 275px;
-	background-color: yellow;
-	margin-left: 27px;
-	margin-right: 25px;
-	float: left;
-}
-
-
-/*Pagina de contato*/
-
-
-#cont-cont-2{
-	position: absolute;
-	top: 50px;
-	right: 300px;
-	font-size: 14px;
-	
-}
-
-#cont-cont{
-	
-	height: 660px;
-	position: relative;
-	
-		
-}
-
-#cont-cont-1{
-	position: absolute;
-	font-size: 18px;
-	top: 50px;
-	left: 200px;
-}
-
-#banner-contato img{
-	position: absolute;
-	right: 400px;
-	top: 10px;
-}
-
-
-
-#banner-contato{
-	height: 120px;
-	background-color: #000;
-	border: 1px solid #d96a00;
-	margin-top: 13px;
-	position: relative;
-}
-
-#banner-contato h1{
-	text-align: left;
-	margin-left: 500px;
-	color: #FFF;
-	line-height: 120px;
-}
 
 
 
@@ -535,3 +404,141 @@ text-align: center;
 	max-width: 160px;
 	font-size: 12px;
 }
+
+
+
+/*Pagina de contato*/
+
+
+#cont-cont-2{
+	position: absolute;
+	top: 50px;
+	right: 300px;
+	font-size: 14px;
+	
+}
+
+#cont-cont{
+	
+	height: 660px;
+	position: relative;
+	
+		
+}
+
+#cont-cont-1{
+	position: absolute;
+	font-size: 18px;
+	top: 50px;
+	left: 200px;
+}
+
+#banner-contato img{
+	position: absolute;
+	right: 400px;
+	top: 10px;
+}
+
+#rodape{
+	height: 160px;
+	background-color: #7b888f;
+	position: relative;
+	
+}
+
+#banner-contato{
+	height: 120px;
+	background-color: #000;
+	border: 1px solid #d96a00;
+	margin-top: 13px;
+	position: relative;
+}
+
+#banner-contato h1{
+	text-align: left;
+	margin-left: 500px;
+	color: #FFF;
+	line-height: 120px;
+}
+
+
+#mapa{
+	position: absolute;
+	top: calc(50% - 68px);
+	right: 10px;
+	z-index: 2;
+}
+
+#rodape h3{
+	position: absolute;
+	top: 50px;
+	right: 500px;
+	z-index: 3;
+	font-size: 12px;
+	
+}
+
+#rodape h2{
+	position: absolute;
+	font-size: 14px;
+	top: 25px;
+	right: 560px;
+}
+
+.mySlides{
+	display: none;
+}
+
+#rodape h4{
+	position: absolute;
+	top: 75px;
+	right: 475px;
+	z-index: 3;
+	font-size: 12px;
+}
+
+#rodape h4 a:hover{
+	color: #06d8ff;
+}
+
+#rodape h4 a{
+	text-decoration: none;
+	color: black;
+}
+#rodape h1{
+	font-size: 14px;
+	position: absolute;
+	top: 25px;
+	left: 400px;
+}
+
+#rodape h6 {
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	text-decoration: none;
+}
+
+#rodape h7  {
+	font-size: 12px;
+	position: absolute;
+	top: 80px;
+	left: 400px;
+	text-decoration: none;
+}
+
+#rodape a{
+	text-decoration: none;
+	color: black;
+}
+
+#rodape h5{
+	position: absolute;
+	top: 100px;
+	right: 470px;
+	z-index: 3;
+	max-width: 160px;
+	font-size: 12px;
+}
+
