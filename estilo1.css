@@ -346,6 +346,53 @@ text-align: center;
 }
 
 
+/*Planos*/
+
+.cont-planos{
+	height: auto;
+	width: 1004px;
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: 10px;
+}
+
+			.txtplano{
+				height: 220px;
+				width: 450px;
+				float: left;
+				margin-right: 98px;
+				margin-left: 69px;
+			}
+
+			.imgplano{
+				height: 150px;
+				width: 300px;
+				float: left;
+				margin-right: 50px;
+				margin-top: 50px;
+			}
+
+			.justificado{
+				text-align: justify;
+			}
+			.arrumar{
+				clear: both;
+			}
+
+#bannerPlanos{
+	height: 310px;
+}
+
+.galeriaPlanos{
+	height: 185px;
+	width: 275px;
+	background-color: yellow;
+	margin-left: 27px;
+	margin-right: 25px;
+	float: left;
+}
+
+
 
 
 
