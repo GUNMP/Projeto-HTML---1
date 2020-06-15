@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="estilo1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="dist/css/lightbox.min.css">
+<title>Depht DEV - Conheça a nossa historia</title>
+</head>
+<body>
+	<div id="topo">
+			<div id="logo">
+				<a href="home.html"><img src="img/logo.png"></a>
+			</div>
+		
+		<div id="menu">
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="qs.html">QUEM SOMOS</a></li>
+				<li><a href="">PLANOS</a></li>
+				<li><a href="">CASES</a></li>
+				<li><a href="">CONTATO</a></li>
+				<li><a href="suporte.html">SUPORTE</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="banner" class="w3-content w3-section" style="max-height:580px; max-width: 1920px">
+  		<img class="mySlides" src="img/imghome01.jpg" style="width:100%">
+  		<img class="mySlides" src="img/imghome02.jpg" style="width:100%">
+  		<img class="mySlides" src="img/imghome03.jpg" style="width:100%">
+		
+		<div id="botao1">
+			<a href="">Saiba Mais</a>
+		</div>
+		
+		<div id="botao2">
+			<a href="">Entre em contato</a>
+		</div>
+	</div>
+<div class="Cont">
+
+	<h1 class="Centralizado"> Nos <span style="color: #d96a00">Conheça</span></h1>
+		<div class="texto">
+		Somos uma empresa nova, mas que conta com a experiência de seus fundadores a mais de 2 anos na área e  que está no mercado para atender novos clientes parceiros. Contamos com profissionais bem qualificados em nossa equipe. Conduzimos nossas atividades com segurança, responsabilidade, qualidade, pontualidade e comprometimento e por isso temos grande destaque em nosso segmento.<br>
+
+ 
+
+Os clientes são o centro de tudo o que fazemos e isso se reflete na visão e nos valores de nossa empresa. Enquanto nossa visão define nosso destino, nossos valores são nosso plano estratégico, guiando nossas ações para o benefício de todos os nossos parceiros.<br>
+
+ 
+
+Dedicamos o nosso trabalho a melhorar o desempenho de nossos clientes aplicando os nossos conhecimentos e inovação em todas as nossas ações.<br>
+
+ 
+
+
+
+
+<h4 class="Centralizado">Nossa missão é fazer de tudo para que você seja sempre atendido da melhor maneira possível!!<br></h4>
+			
+			
+			<h1 class="Centralizado"> Nossos <span style="color: #d96a00">Parceiros</span></h1>
+			
+	
+		</div>
+		<div class="Centralizado">
+		
+	
+			
+		</div>
+		<div class="arrumar"></div>
+	
+	<div class="Cont2">
+		<div class="galeria"><a href="img/Micro.jpg" data-lightbox="parceiros" data-title="Microsoft"><img src="img/Microp.png" alt="1" ></a></div>
+		<div class="galeria"><a href="img/download.png" data-lightbox="parceiros" data-title="Google"><img src="img/google.png" alt="2" ></a></div>
+		<div class="galeria"><a href="img/senacc.jpg" data-lightbox="parceiros" data-title="Senac-GRU"><img src="img/senacp.png" alt="3" ></a></div>
+		<div class="galeria"><a href="img/intel.png" data-lightbox="parceiros" data-title="Bolinea de gorfe"><img src="img/intelp.png" alt="4" ></a></div>
+		
+		<div class="arrumar"></div>
+	
+	</div>
+ <div class="texto">
+	A Depth Dev é lugar de gente está atenta às melhores práticas de gestão de pessoas no mundo. Dessa forma, consegue oferecer soluções completas, capazes de contemplar organizações com diferentes culturas e necessidades. A empresa entende que é preciso ter humildade para aprender e seguir inovando, por isso investe em parcerias com empresas que também prezam pelo respeito e confiabilidade presentes no relacionamento da Dep com seus clientes.
+	
+	</div>
+	</div>
+	
+	<div id="rodape">
+		<div id="mapa">
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.774090001499!2d-46.52841468440833!3d-23.468611984728916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef559cf4ee709%3A0x1717e03b607d1685!2sSenac%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1591644593169!5m2!1spt-BR!2sbr" width="292" height="134" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		<h2>Contato:</h2>
+		<h1>Redes Sociais:		
+		</h1>
+		<h6> <img src= "img/face.png" alt=""> <a href="">Facebook</a></h6>
+		<h7> <img src= "img/twitter.png"> <a href="">Twitter</a></h7>
+		<h3><img src="img/cell.png"> +55 11 958400822</h3>
+		<h4><img src="img/email.png"> <a  href="mailto:dephtdev@gmail.com">dephtdev@gmail.com</a></h4>
+		<h5><img src="img/local.png">  Luíz Faccini, 132 - Centro, Guarulhos - SP, 07110-000</h5>
+	</div>
+	
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+	<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
+
+

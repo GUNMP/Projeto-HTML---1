@@ -309,6 +309,43 @@
 }
 
 
+/*Quemsomos*/
+
+#cont-qs{
+	width: 1024px;
+	background-color: gray;
+	margin: auto;
+}
+
+.Centralizado{
+text-align: center;	
+}
+.galeria{
+	width: 246px;
+	height: 200px;
+	background-color: red;
+	float: left;
+	margin: 5px;
+}
+
+
+.arrumar{
+	clear: both;
+}
+.Cont2{
+	width: 1024px;
+	margin: auto;
+
+}
+.Cont{
+	width: 1024px;
+	padding: 10px;
+	text-align: justify;
+	margin: auto;
+	
+}
+
+
 
 
 
